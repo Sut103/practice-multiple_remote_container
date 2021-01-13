@@ -2,7 +2,7 @@
 	"name": "react devcontainer",
 	"dockerComposeFile": [
 		"../docker-compose.yaml",
-		"../.devcontainer/docker-compose.yml"
+		"../.devcontainer/docker-compose.yaml"
 	],
 	"service": "react",
 	"workspaceFolder": "/workspace/frontend",
