@@ -10,7 +10,6 @@
 		"terminal.integrated.shell.linux": null
 	},
 	"extensions": [
-		"ms-python.python",
 		"redhat.vscode-yaml"
 	],
 	"postCreateCommand": "",
