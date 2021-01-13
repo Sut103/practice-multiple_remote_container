@@ -1,10 +1,11 @@
 version: "3"
 services:
   flask:
-    image: python:3.8.7-buster
-    volumes:
-      - .:/src
+    build:
+      context: backend
+      dockerfile: Dockerfile
     command: /bin/sh -c "while sleep 1000; do :; done"
+
   react:
     image: node:14.15-buster
     volumes:
