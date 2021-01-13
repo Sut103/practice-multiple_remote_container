@@ -1,0 +1,18 @@
+{
+	"name": "react devcontainer",
+	"dockerComposeFile": [
+		"../docker-compose.yaml",
+		"../.devcontainer/docker-compose.yml"
+	],
+	"service": "react",
+	"workspaceFolder": "/workspace/frontend",
+	"settings": {
+		"terminal.integrated.shell.linux": null
+	},
+	"extensions": [
+		"ms-python.python",
+		"redhat.vscode-yaml"
+	],
+	"postCreateCommand": "",
+	"shutdownAction": "none"
+}
