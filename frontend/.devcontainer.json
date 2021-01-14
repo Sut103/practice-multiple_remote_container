@@ -12,6 +12,6 @@
 	"extensions": [
 		"redhat.vscode-yaml"
 	],
-	"postCreateCommand": "",
+	"postCreateCommand": "cd app && npm install",
 	"shutdownAction": "none"
 }
