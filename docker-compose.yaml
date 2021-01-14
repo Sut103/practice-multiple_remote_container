@@ -4,6 +4,9 @@ services:
     build:
       context: backend
       dockerfile: Dockerfile
+    env_file:
+      - base-variables.env
+      - flask-variables.env
     volumes:
       - .:/src
     ports:
@@ -13,6 +16,9 @@ services:
 
   react:
     image: node:14.15-buster
+    env_file:
+      - base-variables.env
+      - react-variables.env
     volumes:
       - .:/src
     ports:
