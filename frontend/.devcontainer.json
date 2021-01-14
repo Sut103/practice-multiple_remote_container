@@ -10,7 +10,16 @@
 		"terminal.integrated.shell.linux": null
 	},
 	"extensions": [
-		"redhat.vscode-yaml"
+		"redhat.vscode-yaml",
+		"formulahendry.auto-rename-tag",
+		"formulahendry.auto-close-tag",
+		"CoenraadS.bracket-pair-colorizer",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"dsznajder.es7-react-js-snippets",
+		"shardulm94.trailing-spaces",
+		"Arjun.swagger-viewer",
 	],
 	"postCreateCommand": "cd app && npm install",
 	"shutdownAction": "none"

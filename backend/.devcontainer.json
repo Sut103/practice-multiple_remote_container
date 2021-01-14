@@ -11,7 +11,9 @@
     },
     "extensions": [
         "ms-python.python",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "Arjun.swagger-viewer",
+        "VisualStudioExptTeam.vscodeintellicode",
     ],
     "postCreateCommand": "pip install autopep8 pylint",
     "shutdownAction": "none"
