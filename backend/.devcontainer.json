@@ -9,6 +9,7 @@
     "settings": {
         "terminal.integrated.shell.linux": null
     },
+    "remoteUser": "python",
     "extensions": [
         "ms-python.python",
         "redhat.vscode-yaml",
