@@ -9,6 +9,7 @@
 	"settings": {
 		"terminal.integrated.shell.linux": null
 	},
+	"remoteUser": "node",
 	"extensions": [
 		"redhat.vscode-yaml",
 		"formulahendry.auto-rename-tag",
