@@ -22,6 +22,6 @@
 		"shardulm94.trailing-spaces",
 		"Arjun.swagger-viewer",
 	],
-	"postCreateCommand": "cd app && npm install",
+	"postCreateCommand": "",
 	"shutdownAction": "none"
 }

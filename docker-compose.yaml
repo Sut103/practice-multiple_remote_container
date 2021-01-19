@@ -15,7 +15,9 @@ services:
     command: python app/server.py
 
   react:
-    image: node:14.15-buster
+    build:
+     context: frontend
+     dockerfile: Dockerfile
     env_file:
       - base-variables.env
       - react-variables.env
