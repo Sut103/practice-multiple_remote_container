@@ -7,6 +7,6 @@ ARG USER_GID=$USER_UID
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME 
 
-COPY . /src
+COPY ./app/requirements.txt /src/
 WORKDIR /src
 RUN pip install -r requirements.txt
