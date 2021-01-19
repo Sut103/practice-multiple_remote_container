@@ -16,8 +16,8 @@ services:
 
   react:
     build:
-     context: frontend
-     dockerfile: Dockerfile
+      context: frontend
+      dockerfile: Dockerfile
     env_file:
       - base-variables.env
       - react-variables.env
@@ -27,3 +27,9 @@ services:
       - "3000:3000"
     working_dir: /src/frontend/app
     command: yarn start
+
+  mock:
+    image: stoplight/prism
+    ports:
+      - "4010:4010"
+    command: mock -h 0.0.0.0 -d https://raw.githack.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore-expanded.yaml
