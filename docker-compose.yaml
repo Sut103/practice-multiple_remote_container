@@ -12,7 +12,7 @@ services:
     ports:
       - "5000:5000"
     working_dir: /src/backend
-    command: python server.py
+    command: python app/server.py
 
   react:
     image: node:14.15-buster
