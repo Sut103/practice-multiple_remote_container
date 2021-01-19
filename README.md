@@ -20,4 +20,4 @@ code practice-multiple_remote_container
 2. `F1`を押して `Remote-Containers: Open Folder in Container...` を選択。
 1. `backend` を選択して `OK`
 1. ビルドが始まるので待つ。結構待つ(frontendコンテナにnpm installしているため)。
-1. `shift + ctrl + n` して、同様にfrontendも開く。
+1. `shift + ctrl + n` して、同様に`frontend`も開く。
