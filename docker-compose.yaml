@@ -33,3 +33,9 @@ services:
     ports:
       - "4010:4010"
     command: mock -h 0.0.0.0 -d https://raw.githack.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore-expanded.yaml
+
+  dynamo:
+    image: amazon/dynamodb-local
+    ports:
+      - "8000:8000"
+    command: -jar DynamoDBLocal.jar -dbPath . -sharedDb
